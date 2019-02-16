@@ -18,12 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6X6-iZ-NkD">
-                                <rect key="frame" x="287" y="35" width="70" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hnh-TJ-SaF">
+                                <rect key="frame" x="309" y="46" width="55" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Log In"/>
+                                <state key="normal" title="Log Out"/>
                                 <connections>
-                                    <action selector="doBtnLogIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ny9-x7-RXA"/>
+                                    <action selector="doBtnLogOut:" destination="BYZ-38-t0r" eventType="touchUpInside" id="abL-mh-078"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -31,7 +31,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="btnLogIn" destination="6X6-iZ-NkD" id="ICi-rr-d9i"/>
+                        <outlet property="doBtnLogOut" destination="Hnh-TJ-SaF" id="hS9-fA-3n6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
