@@ -9,6 +9,7 @@ target 'Firebase-Authentication' do
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'FirebaseUI/Auth'
+  pod 'FirebaseUI/Email'
   pod 'FirebaseUI/Google'
 
 end

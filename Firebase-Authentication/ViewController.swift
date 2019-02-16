@@ -21,7 +21,7 @@ class ViewController: UIViewController, FUIAuthDelegate {
         // Do any additional setup after loading the view, typically from a nib.
         authUI = FUIAuth.defaultAuthUI()
         authUI?.delegate = self
-        let providers : [FUIAuthProvider] = [FUIGoogleAuth()]
+        let providers : [FUIAuthProvider] = [FUIEmailAuth(), FUIGoogleAuth()]
         authUI?.providers = providers
     }
     
